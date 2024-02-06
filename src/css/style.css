@@ -1,0 +1,108 @@
+#container {
+    margin: 100px;
+    width: 400px;
+}
+
+.card-container{
+    padding-left: 0;
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+}
+
+.top-card {
+    background-position: top;
+}
+
+.bottom-card {
+    background-position: bottom;
+}
+
+
+.card {
+    width: 50px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-visa {
+    background-image: url(../img/card-visa.gif);
+}
+
+.card-mastercard {
+    background-image: url(../img/card-mastercard.gif);
+}
+
+.card-amex {
+    background-image: url(../img/card-amex.gif);
+}
+
+.card-mir {
+    background-image: url(../img/card-mir.gif);
+}
+
+.card-diners {
+    background-image: url(../img/card-diners.gif);
+}
+
+.card-discover {
+    background-image: url(../img/card-discover.gif);
+}
+
+.card-jcb {
+    background-image: url(../img/card-jcb.gif);
+}
+
+li {
+    list-style-type: none;
+}
+
+.innogrn-form-widget {
+    display: flex;
+    flex-direction: row;
+}
+
+.submit {
+    color: #fff;
+    background-color: #5cb85c;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.form-control {
+    padding: 12px 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-control:focus {
+    background: ghostwhite;
+    color: black;
+}
+
+.submit:hover {
+    background: deepskyblue;
+}
+
